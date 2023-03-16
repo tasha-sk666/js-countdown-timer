@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <title>Countdown timer</title>
+</head>
+
+<body class="d-flex h-100 text-center">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="d-flex flex-wrap align-items-center justify-content-center mb-auto py-3 mb-4 border-bottom">
+      <div class="timer nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <button data-time="5" class="timer__button btn btn-outline-secondary me-2">5 Secs</button>
+        <button data-time="300" class="timer__button btn btn-outline-secondary me-2">Work 5</button>
+        <button data-time="900" class="timer__button btn btn-outline-secondary me-2">Quick 15</button>
+        <button data-time="1200" class="timer__button btn btn-outline-secondary me-2">Snack 20</button>
+        <button data-time="3600" class="timer__button btn btn-outline-secondary me-2">Luch Break</button>
+        <form name="customForm" class="form">
+          <input type="text" name="minutes" class="form-control" placeholder="Enter minutes">
+        </form>
+      </div>
+    </header>
+    <main class="display px-3">
+      <h1 class="display-4 fst-italic fw-bold">Let's take a break</h1>
+      <h2 class="display__time-left display-1">00 : 00</h2>
+      <p class="display__end-time display-6 fst-italic">Be Back at 00:00</p>
+    </main>
+    <footer class="mt-auto">
+      <p class="lead">Made by <a href="https://github.com/tasha-sk666" class="text-dark">Tasha Sk</a></p>
+    </footer>
+  </div>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
